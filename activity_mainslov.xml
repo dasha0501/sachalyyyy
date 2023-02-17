@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/yellow"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/word"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="50sp"
+        android:background="@color/beige"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Ооннььур"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:id="@+id/word2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="50sp"
+        android:background="@color/beige"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="дар"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <TextView
+
+        android:id="@+id/word3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280sp"
+        android:layout_marginTop="50sp"
+        android:background="@color/beige"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="а"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="174sp"
+        android:layout_height="258sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="300sp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="ЗАР" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="БЫТ" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="БУТ" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text=" ҺЫТ" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="ПЫТ" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="170sp"
+        android:layout_height="251sp"
+        android:layout_marginLeft="220sp"
+        android:layout_marginTop="300sp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="а" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="дар" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="ун" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="тар" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="лаах" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttoncheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:layout_marginHorizontal="30sp"
+
+        android:backgroundTint="@color/yellow"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Проверить" />
+
+
+</RelativeLayout>
